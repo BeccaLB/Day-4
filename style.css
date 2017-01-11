@@ -1,0 +1,53 @@
+ * {
+   border-sizing: borderbox;
+ }
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.menu {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+}
+
+h2 {
+  padding: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.art-collection-1 {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  width: 100%;
+}
+
+.art {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+    .art {
+        background-color: red;
+    }
+  }
